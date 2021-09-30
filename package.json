@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ethers": "^5.4.7",
+    "moralis": "^0.0.65"
+  }
+}
