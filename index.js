@@ -84,7 +84,7 @@ const signTx = async (pkey = '', amount, recipientAddress = '') => {
 	const values = {
 		owner: signer.address,
 		spender: relayer.address,
-		value: String(amount),
+		value: String(parsedAmount),
 		nonce: nonce,
 		deadline,
 	};
